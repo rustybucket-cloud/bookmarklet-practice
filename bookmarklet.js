@@ -27,6 +27,6 @@
     });
     images.forEach( image => {
         image.src = 'https://agitated-bassi-83ae31.netlify.app/mr-bird.jpeg';
-        image.setAttribute('srcset', 'https://agitated-bassi-83ae31.netlify.app/mr-bird.jpeg');
+        image.setAttribute('srcset', '');
     });
 })()
