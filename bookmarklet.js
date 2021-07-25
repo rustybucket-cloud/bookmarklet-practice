@@ -19,6 +19,10 @@
     li.forEach( text => {
         text.textContent = 'Mr Bird';
     });
+    const a = document.querySelectorAll('a');
+    a.forEach( text => {
+        text.textContent = 'Mr Bird';
+    });
     const p = document.querySelectorAll('p');
     p.forEach( para => {
         para.innerHTML = 'Mr Bird';
