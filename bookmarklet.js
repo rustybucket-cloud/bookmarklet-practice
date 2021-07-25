@@ -7,6 +7,18 @@
     h1.forEach( header => {
         header.textContent = 'Mr Bird';
     });
+    const h2 = document.querySelectorAll('h2');
+    h2.forEach( text => {
+        text.textContent = 'Mr Bird';
+    });
+    const h3 = document.querySelectorAll('h3');
+    h3.forEach( text => {
+        text.textContent = 'Mr Bird';
+    });
+    const li = document.querySelectorAll('li');
+    li.forEach( text => {
+        text.textContent = 'Mr Bird';
+    });
     const p = document.querySelectorAll('p');
     p.forEach( para => {
         para.innerHTML = 'Mr Bird';
